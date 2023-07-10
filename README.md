@@ -30,7 +30,7 @@ El programa utiliza el objeto PortScanner de la biblioteca nmap para realizar el
 
 Después de llamar a la función get_open_ports, se imprime en la consola la lista de puertos abiertos en formato JSON utilizando la función json.dumps para una mejor presentación.
 
-    target_host = '192.168.20.1-254'
+    target_host = '192.xxx.xxx.xxx-xxx'
     open_ports = get_open_ports(target_host)
 
     print(f"Los puertos abiertos en {target_host} son:")
